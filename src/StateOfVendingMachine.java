@@ -1,4 +1,3 @@
-// Abstract State class representing the different states of the vending machine
 abstract class StateOfVendingMachine {
     protected VendingMachine vendingMachine;
 

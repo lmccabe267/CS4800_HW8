@@ -1,6 +1,5 @@
 import java.util.HashMap;
 
-// Chain of Responsibility: SnackDispenserHandler class
 class SnackDispenserHandler {
     private HashMap<String, Snack> snacks = new HashMap<>();
     private SnackDispenserHandler nextHandler;

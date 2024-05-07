@@ -1,4 +1,3 @@
-// VendingMachine class managing the states and interactions
 class VendingMachine {
     private SnackDispenserHandler snackDispenser = new SnackDispenserHandler();
     private StateOfVendingMachine currentState;
@@ -6,10 +5,8 @@ class VendingMachine {
     double moneyInserted;
 
     public VendingMachine() {
-        // Setting up the chain of responsibility
         snackDispenser.setNextHandler(new SnackDispenserHandler());
 
-        // Initializing currentState to IdleState
         currentState = new IdleState(this);
     }
 

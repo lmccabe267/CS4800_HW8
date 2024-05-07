@@ -1,4 +1,3 @@
-// Concrete IdleState class representing the idle state of the vending machine
 class IdleState extends StateOfVendingMachine {
     public IdleState(VendingMachine vendingMachine) {
         super(vendingMachine);

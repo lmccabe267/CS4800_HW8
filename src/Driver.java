@@ -1,4 +1,3 @@
-// Driver class to test the vending machine
 public class Driver {
     public static void main(String[] args) {
         VendingMachine vendingMachine = new VendingMachine();

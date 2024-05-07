@@ -1,4 +1,3 @@
-// Snack class representing a snack with its name, price, and quantity
 public class Snack {
     String name;
     double price;

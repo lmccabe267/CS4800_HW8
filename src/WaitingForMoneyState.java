@@ -1,4 +1,3 @@
-// Concrete WaitingForMoneyState class representing the waiting for money state of the vending machine
 class WaitingForMoneyState extends StateOfVendingMachine {
     public WaitingForMoneyState(VendingMachine vendingMachine) {
         super(vendingMachine);

@@ -1,4 +1,3 @@
-// Concrete DispensingSnackState class representing the dispensing snack state of the vending machine
 class DispensingSnackState extends StateOfVendingMachine {
     public DispensingSnackState(VendingMachine vendingMachine) {
         super(vendingMachine);
