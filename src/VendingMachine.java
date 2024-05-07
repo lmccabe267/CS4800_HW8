@@ -31,7 +31,7 @@ class VendingMachine {
     }
 
     public void insertMoney(double amount) {
-        moneyInserted += amount;
+        moneyInserted = amount;
         currentState.insertMoney(amount);
     }
 
